@@ -1,0 +1,110 @@
+Testcase ID,Precondition,Objective,Status,Priority,Steps,Test Data,Expected Result
+HMS_DOC_ADDPRE_001,To check whether the user is able to Add prescription with valid credentials,"Doctor account should be created by admin.
+Doctor credentials should be available.
+Patient should be either created by doctor or admin.",Draft,High,Launch the browser and enter the URL.,Valid URL,Login page should be displayed.
+,,,,,Enter the valid credentials and click Login button,"Valid Username
+Valid Password",Doctor dashboard should be displayed.
+,,,,,Click on prescription ,NA,Priscription page should be displayed
+,,,,,Click on add prescription Button,NA,Priscription popup page should be displayed
+,,,,,Search for patient and select the patient name,Valid Patient name,Patient name should be displayed
+,,,,,Enter the Date,"Valid Date : Day, dd mm yyyy",Date should be displayed
+,,,,,Enter the time in 24hours format,valid time : ,Time should be displayed in 24-hours format
+,,,,,Write Case History of patient record,Write patient health details,It should be acceppted
+,,,,,Write Medication,Write patient medicine,It should be acceppted
+,,,,,Write Note,,It should be acceppted
+,,,,,Click on submit button,NA,Add prescription Successfully message should be displayed
+,,,,,Check prescription,NA,Add prescription should show in priscription page
+HMS_DOC_ADDPRE_002,"To Check the date in valid credentials (day ,date month year format)",Doctor can give Date for prescirption for patient,Draft,High,Launch the browser and enter the URL.,Valid URL,Login page should be displayed.
+,,,,,Enter the valid credentials and click Login button,"Valid Username
+Valid Password",Doctor dashboard should be displayed.
+,,,,,Click on prescription ,NA,Priscription page should be displayed
+,,,,,Click on add prescription Button,NA,Priscription popup page should be displayed
+,,,,,Enter the day in date ,Mon,It should be acceppted
+,,,,,Enter the date in date in number ,01 to 31,It should be acceppted
+,,,,,Enter the month in date in Alphabet,June,It should be acceppted
+,,,,,Enter the month in date in Alphabet in smallercase,june,It should be acceppted
+,,,,,Enter the month in Upper case,JUNE,It should be acceppted
+,,,,,Enter the Year in (yyyy format),2023,It should be acceppted
+,,,,,Enter the Year in (yy format),23,It should Auto fill It
+HMS_DOC_ADDPRE_003,To check the time with valid credentials in 24-hours format,,Draft,High,Launch the browser and enter the URL.,Valid URL,Login page should be displayed.
+,,,,,Enter the valid credentials and click Login button,"Valid Username
+Valid Password",Doctor dashboard should be displayed.
+,,,,,Click on prescription ,NA,Priscription page should be displayed
+,,,,,Click on add prescription Button,NA,Priscription popup page should be displayed
+,,,,,Enter Time in 24-hours hh:mm format,23:00,It should be acceppted
+HMS_DOC_ADDPRE_004,To check the patient name dropdown & text filed,,Draft,High,Launch the browser and enter the URL.,Valid URL,Login page should be displayed.
+,,,,,Enter the valid credentials and click Login button,"Valid Username
+Valid Password",Doctor dashboard should be displayed.
+,,,,,Click on prescription ,NA,Priscription page should be displayed
+,,,,,Click on add prescription Button,NA,Priscription popup page should be displayed
+,,,,,Click on patient name dropdown and select the name,Enter the name,It should be acceppted and show patient name
+,,,,,Click on serach text and write a name of the patien,Enter the name,It should be acceppted and show patient name
+HMS_DOC_ADDPRE_005,To Check Case History text field with valid credentials,Doctor can Write the patient current health conditions,Draft,High,Launch the browser and enter the URL.,Valid URL,Login page should be displayed.
+,,,,,Enter the valid credentials and click Login button,"Valid Username
+Valid Password",Doctor dashboard should be displayed.
+,,,,,Click on prescription ,NA,Priscription page should be displayed
+,,,,,Click on add prescription Button,NA,Priscription popup page should be displayed
+,,,,,Enter the Alphabet in Uppercase ,,It should be acceppted
+,,,,,Enter the Alphabet in Lowercase,,It should be acceppted
+,,,,,Enter Alphabet more than 100 lines,,It should be acceppted
+,,,,,Enter Special Characters,,It should be acceppted
+,,,,,Enter Numbers,,It should be acceppted
+,,,,,Enter Alphanumerics,,It should be acceppted
+,,,,,Check the Fond dropdown button and select one fond,,it should change the letter fond
+,,,,,Check colour dropdwon button and select a colour,,it should change the letter colour
+,,,,,Click on Bold icon button ,,The letter should be show in bold fond
+,,,,,Click on Italic icon button,,The letter should be show in Italic fond
+,,,,,Click on Underline icon button,,The letter should be underlineed
+,,,,,Click on Unordered list icon button,,The Each line should show a dot for each line
+,,,,,Click on ordered list icon button,,The Each line should be show in numeric order
+,,,,,Click on Outdent icon button for backward operation,,
+,,,,,Click on Image icon ,"Upload image in .png,.jpg formats",Upload successfully message should be displayed
+,,,,,Click on Edit HTML icon,NA,HTML edit page should be displayed inside case History text field
+HMS_DOC_ADDPRE_006,To Check Medication text field with valid credentials,Doctor can Write medicine for base on  patient health conditions,Draft,High,Launch the browser and enter the URL.,Valid URL,Login page should be displayed.
+,,,,,Enter the valid credentials and click Login button,"Valid Username
+Valid Password",Doctor dashboard should be displayed.
+,,,,,Click on prescription ,NA,Priscription page should be displayed
+,,,,,Click on add prescription Button,NA,Priscription popup page should be displayed
+,,,,,Enter the Alphabet in Uppercase ,,It should be acceppted
+,,,,,Enter the Alphabet in Lowercase,,It should be acceppted
+,,,,,Enter Alphabet more than 100 lines,,It should be acceppted
+,,,,,Enter Special Characters,,It should be acceppted
+,,,,,Enter Numbers,,It should be acceppted
+,,,,,Enter Alphanumerics,,It should be acceppted
+,,,,,Check the Fond dropdown button and select one fond,,it should change the letter fond
+,,,,,Check colour dropdwon button and select a colour,,it should change the letter colour
+,,,,,Click on Bold icon button ,,The letter should be show in bold fond
+,,,,,Click on Italic icon button,,The letter should be show in Italic fond
+,,,,,Click on Underline icon button,,The letter should be underlineed
+,,,,,Click on Unordered list icon button,,The Each line should show a dot for each line
+,,,,,Click on ordered list icon button,,The Each line should be show in numeric order
+,,,,,Click on Outdent icon button for backward operation,,
+,,,,,Click on Image icon ,"Upload image in .png,.jpg formats",Upload successfully message should be displayed
+,,,,,Click on Edit HTML icon,NA,HTML edit page should be displayed inside Medication text field
+HMS_DOC_ADDPRE_007,To Check Note text field with valid credentials,,Draft,High,Launch the browser and enter the URL.,Valid URL,Login page should be displayed.
+,,,,,Enter the valid credentials and click Login button,"Valid Username
+Valid Password",Doctor dashboard should be displayed.
+,,,,,Click on prescription ,NA,Priscription page should be displayed
+,,,,,Click on add prescription Button,NA,Priscription popup page should be displayed
+,,,,,Enter the Alphabet in Uppercase ,ABCDEFGHIJKLNOP,It should be acceppted
+,,,,,Enter the Alphabet in Lowercase,abcdefghijklmnop,It should be acceppted
+,,,,,Enter Alphabet more than 100 lines,,It should be acceppted
+,,,,,Enter Special Characters,^!&,It should be acceppted
+,,,,,Enter Numbers,12354855,It should be acceppted
+,,,,,Enter Alphanumerics,mankdjf1244,It should be acceppted
+,,,,,Check the Fond dropdown button and select one fond,,it should change the letter fond
+,,,,,Check colour dropdwon button and select a colour,,it should change the letter colour
+,,,,,Click on Bold icon button ,,The letter should be show in bold fond
+,,,,,Click on Italic icon button,,The letter should be show in Italic fond
+,,,,,Click on Underline icon button,,The letter should be underlineed
+,,,,,Click on Unordered list icon button,,The Each line should show a dot for each line
+,,,,,Click on ordered list icon button,,The Each line should be show in numeric order
+,,,,,Click on Outdent icon button for backward operation,,
+,,,,,Click on Image icon ,"Upload image in .png,.jpg formats",Upload successfully message should be displayed
+,,,,,Click on Edit HTML icon,NA,HTML edit page should be displayed inside Medication text field
+HMS_DOC_ADDPRE_008,To Check submit button ,,Draft,High,Launch the browser and enter the URL.,Valid URL,Login page should be displayed.
+,,,,,Enter the valid credentials and click Login button,"Valid Username
+Valid Password",Doctor dashboard should be displayed.
+,,,,,Click on prescription ,NA,Priscription page should be displayed
+,,,,,Click on add prescription Button,NA,Priscription popup page should be displayed
+,,,,,Enter valid credentials and click on submit button,NA,Prescription Succssesfully added message should be displayed
