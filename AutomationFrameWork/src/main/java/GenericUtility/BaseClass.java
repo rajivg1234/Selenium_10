@@ -59,6 +59,10 @@ public class BaseClass {
 		hp.getLogout().click();
 		
 	}
+	@AfterMethod
+	public void logout() {
+		HomePage hp=new HomePage(driver);
+		hp.getLogout().click();
 	
 	@AfterClass
 	public void closeBrowser() {
@@ -69,3 +73,4 @@ public class BaseClass {
 		ereport.flush();
 	}
 }
+
