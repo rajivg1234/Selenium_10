@@ -53,16 +53,13 @@ public class BaseClass {
 		lp.getPasswordTextField().sendKeys(futil.getDatafromProperty("password"));
 		lp.getLoginButton().click();	
 	}
+	
 	@AfterMethod
 	public void logout() {
 		HomePage hp=new HomePage(driver);
 		hp.getLogout().click();
 		
 	}
-	@AfterMethod
-	public void logout() {
-		HomePage hp=new HomePage(driver);
-		hp.getLogout().click();
 	
 	@AfterClass
 	public void closeBrowser() {
